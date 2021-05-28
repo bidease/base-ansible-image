@@ -1,0 +1,14 @@
+ansible-lint==4.2.0
+yamllint==1.21.0
+ansible==2.8.10
+asn1crypto==0.24.0
+cffi==1.12.3
+cryptography==2.7
+Jinja2==2.10.1
+MarkupSafe==1.1.1
+pathspec==0.5.9
+pycparser==2.19
+PyYAML==5.1.2
+ruamel.yaml==0.16.5
+ruamel.yaml.clib==0.1.2
+six==1.12.0
