@@ -1,7 +1,7 @@
 name: build image workflow
 on:
   push:
-    branches: ["testci"]
+    branches: ["main"]
 
 jobs:
   build:
@@ -20,5 +20,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: |
-            docker.pkg.github.com/${{ github.repository }}/ansible:latest
+          tags: docker.pkg.github.com/${{ github.repository }}/base-ansible-image:latest
