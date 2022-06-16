@@ -23,3 +23,4 @@ six==1.16.0
 tenacity==7.0.0
 wcmatch==8.2
 yamllint==1.26.1
+netaddr==0.8.0
